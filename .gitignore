@@ -1,0 +1,34 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.bbl
+*.blg
+
+# LaTeX editor temporary files
+*~
+
+# Compiled LaTeX files
+#*.pdf
+
+# Uncomment the line below if you use BibTeX for bibliography
+# *.bbl
+
+# Uncomment the line below if you're using TeXShop on macOS
+# *.pdfsync
+
+# Uncomment the line below if you're using Vim LaTeX-suite
+# *.pdf
+
+# LaTeX .dvi files
+*.dvi
+
+# LaTeX .ps files
+*.ps
+
+# Ignore build directory
+/build/
