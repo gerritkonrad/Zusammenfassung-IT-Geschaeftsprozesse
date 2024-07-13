@@ -1,0 +1,34 @@
+\section{Datenmodellierung}
+
+\subsection{Ziel der ER-Modelle}
+    \begin{itemize}
+        \item Darstellung der im betrieblichen Informationssystem relevanten Daten.
+        \item Visualisierung der Datenobjekte (Entitäten) mit ihren Attributen und den Beziehungen zwischen ihnen auf Typebene.
+    \end{itemize}
+
+\subsection{Modellelemente von ER-Modellen}
+    \subsubsection*{Entitäten}
+        \begin{itemize}
+            \item Identifizierbare und abgrenzbare Datenobjekte (z.B. Kunde, Rechnung)
+            \item Besitzen Attribute und Beziehungen zu andren Entitäten
+            \item Darstellung durch Rechtecke
+        \end{itemize}
+    \subsubsection*{Attribute}
+        \begin{itemize}
+            \item Relevante Eigenschaften einer Entität (z.B. Name, Rechnungsbetrag)
+            \item Schlüsselattribute (identifizieren die Entitäten eindeutig) werden unterstrichen
+            \item Darstellung durch Ovale
+        \end{itemize}
+    \subsubsection*{Relationen}
+        \begin{itemize}
+            \item Beziehungen zwischen Entitäten (z.B. Kunde <-> Rechnung)
+            \item Darstellung durch Rauten, die mit den in Beziehungen stehenden Entitäten verbunden werden
+        \end{itemize}
+
+\subsection{Kardinalitäsverhältnisse}
+    \begin{itemize}
+        \item Beschreiben die Anzahl der Entitäten, die an einer Beziehung teilnehmen können.
+        \item 1:1-Beziehung: Eine Entität ist mit genau einer anderen Entität verbunden
+        \item 1:n-Beziehung: Eine Entität der ersten Art mit mehreren Entitäten der zweiten Art verbunden, aber jede Entität der zweiten Art nur mit einer der ersten Art
+        \item n:n-Beziehung: Entitäten beider Art können beliebig oft miteinander in Beziehung stehen
+    \end{itemize}
