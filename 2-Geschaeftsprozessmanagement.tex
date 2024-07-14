@@ -1,89 +1,113 @@
 \section{Geschäftsprozessmanagement}
 
 \subsection{Grundlagen zu Geschäftsprozessen}
-\begin{itemize}
-    \item Definition: Geschäftsprozesse sind die arbeitsteilige Ausführung von Aktivitäten in einer zeitlich-/sachlogischen Reihenfolge zur Erfüllung einer betrieblichen Aufgabe.
-    \item Sichten: Steuerungssicht, Funktionssicht, Datensicht, Organisationssicht, Leistungssicht.
-    \item Arten: Wertschöpfende Kernprozesse, unterstützende Prozesse, Management Prozesse.
-    \item Prozesstyp vs. Prozessinstanz: Typ ist die Vorlage, Instanz die konkrete Ausführung.
-\end{itemize}
+    \subsubsection*{Definition}
+        Geschäftsprozesse sind die arbeitsteilige Ausführung von Aktivitäten in einer zeitlich-/sachlogischen Reihenfolge zur Erfüllung einer betrieblichen Aufgabe.
+    \subsubsection*{Sichten}
+        \begin{itemize}
+            \item Steuerungssicht
+            \item Funktionssicht
+            \item Datensicht
+            \item Organisationssicht
+            \item Leistungssicht
+        \end{itemize}
+    \subsubsection*{Arten}
+        Wertschöpfende Kernprozesse, unterstützende Prozesse, Management Prozesse.
+    \subsubsection*{Prozesstyp vs. Prozessinstanz}
+        Typ ist die Vorlage, Instanz die konkrete Ausführung.
 
 \subsection{Merkmale und Lebenszyklus des Geschäftsprozessmanagements}
-\begin{itemize}
-    \item Ziele: Prozesse effektiver und effizienter gestalten.
-    \item Lebenszyklus: Identifikation, Erhebung, Analyse, Verbesserung, Einführung und Überwachung von Prozessen.
-    \item Rollen:
-    \begin{itemize}
-        \item Geschäftsführung: Verantwortlich für die grundsätzliche Gestaltung der Geschäftsprozesse.
-        \item Prozessverantwortlicher: Verantwortlich für die Ausführung und Anpassung der Prozesse.
-        \item Prozessteilnehmer: Führen Routineaufgaben innerhalb der Prozesse aus.
-        \item Systemanalytiker: Erhebt, analysiert und verbessert Prozesse.
-        \item Anwendungsentwickler: Verantwortlich für die softwaretechnische Umsetzung.
-    \end{itemize}
-\end{itemize}
+    \subsubsection*{Ziele}
+        Prozesse effektiver und effizienter gestalten.
+    \subsubsection*{Rollen}
+        \begin{itemize}
+            \item Geschäftsführung: Verantwortlich für die grundsätzliche Gestaltung der Geschäftsprozesse.
+            \item Prozessverantwortlicher: Verantwortlich für die Ausführung und Anpassung der Prozesse.
+            \item Prozessteilnehmer: Führen Routineaufgaben innerhalb der Prozesse aus.
+            \item Systemanalytiker: Erhebt, analysiert und verbessert Prozesse.
+            \item Anwendungsentwickler: Verantwortlich für die softwaretechnische Umsetzung.
+        \end{itemize}
+    \subsubsection*{Lebenszyklus}
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=\textwidth]{image/Lebenszyklus.png}
+            \caption{Lebenszyklus Geschäftsprozessmanagements}
+            \label{fig:Lebenszyklus}
+        \end{figure}
 
 \subsection{Identifikation von Geschäftsprozessen}
-\begin{itemize}
-    \item Vorgehen: Erfassung der wichtigsten Prozesse, Darstellung als Prozesslandkarte oder Wertschöpfungskette, Bewertung und Auswahl der zu verbessernden Prozessen.
-    \item Referenzmodelle: Dienen als Vorlagen zur Entwicklung spezifischer Prozesse. Bespiel: Handels-H-Modell (siehe unten). Anerkannte Lösung für wiederkehrende Probleme.
-    \item Techniken: Prozessmodellierung und -analyse zur Optimierung.
-\end{itemize}
+    \subsubsection*{Vorgehen}
+        Erfassung der wichtigsten Prozesse, Darstellung als Prozesslandkarte oder Wertschöpfungskette, Bewertung und Auswahl der zu verbessernden Prozessen.
+    \subsubsection*{Referenzmodelle}
+        Dienen als Vorlagen zur Entwicklung spezifischer Prozesse. Bespiel: Handels-H-Modell (Abbildung \ref{fig:Handels-H-Modell}). Anerkannte Lösung für wiederkehrende Probleme.
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=\textwidth]{image/Handels-H-Modell.png}
+            \caption{Handels H Modell}
+            \label{fig:Handels-H-Modell}
+        \end{figure}
+    \subsubsection*{Techniken}
+        Prozessmodellierung und -analyse zur Optimierung.
 
 \subsection{Gestaltung von Geschäftsprozessen}
     \subsubsection{Prozesse erheben}
-        \begin{itemize}
-            \item Ziel: Sammeln von Informationen über den aktuellen Ablauf eines Prozesses (IST-Modell).
-            \item Methoden:
+        \paragraph*{Ziel}
+            Sammeln von Informationen über den aktuellen Ablauf eines Prozesses (IST-Modell).
+        \paragraph*{Methoden}
             \begin{itemize}
                 \item Dokumentensichtung: Nutzt vorhandene Dokumente, kann aber veraltet sein.
                 \item Beobachtung: Direkte Erkennung des IST-Zustands, jedoch zeitaufwendig.
                 \item Interviews: Detaillierte Informationen, aber zeitintensiv.
                 \item Workshops: Kompakte und kollaborative Erhebung, jedoch zeitaufwendig für alle.
             \end{itemize}
-        \end{itemize}
 
-    \subsubsection{Prozesse analysieren} 
-        \begin{itemize}
-            \item Ziel: Identifizieren von Schwachstellen und deren Ursachen.
-            \item Typische Schwachstellen:
+    \subsubsection{Prozesse analysieren}
+        \paragraph*{Ziel}
+            Identifizieren von Schwachstellen und deren Ursachen.
+        \paragraph*{Typische Schwachstellen}
             \begin{itemize}
                 \item Lange Durchlaufzeiten
                 \item Hohe Fehlerquote
                 \item Hohe Kosten
                 \item Geringe Flexibilität
             \end{itemize}
-            \item Methoden:
+        \paragraph*{Methoden}
             \begin{itemize}
                 \item Qualitative Analyse: Wertbeitragsanalyse, Ursache-Wirkungsdiagramme.
                 \item Quantitative Analyse: Nutzung statistischer Daten zur Identifikation von Engpässen.
             \end{itemize}
-        \end{itemize}
 
-    \subsubsection{Prozesse verbessern}  
-        \begin{itemize}
-            \item Ziel: Vorschläge zur Eliminierung von Schwachstellen und Erstellung eines SOLL-Prozesses.
-            \item Dimensionen der Verbesserung: Durchlaufzeit, Kosten, Qualität, Flexibilität.
-            \item Methoden:
+    \subsubsection{Prozesse verbessern}
+        \paragraph*{Ziel}
+            Vorschläge zur Eliminierung von Schwachstellen und Erstellung eines SOLL-Prozesses.
+        \paragraph*{Dimensionen der Verbesserung}
+            Durchlaufzeit, Kosten, Qualität, Flexibilität. (Abbildung \ref{fig:Teufelsviereck})
+            \begin{figure}[ht]
+                \centering
+                \includegraphics[width=\textwidth]{image/Teufelsviereck.png}
+                \caption{Teufelsviereck}
+                \label{fig:Teufelsviereck}
+            \end{figure}
+        \paragraph*{Methoden}
             \begin{itemize}
                 \item Verbesserungsvorschläge in den genannten Dimensionen erarbeiten.
                 \item Redesign-Heuristiken: Konkrete Maßnahmen zur Umgestaltung von Prozessen.
             \end{itemize}
-        \end{itemize}
 
 \subsection{Ausführung von Geschäftsprozessen}
-\begin{itemize}
-    \item Umsetzung: Prozesse in die Praxis umsetzen durch Implementierung und Anpassung von Anwendungssystemen.
-    \item Beispiele: Implementierung neuer Systeme, Anpassung bestehender Systeme, Bereitstellung benötigter Geräte.
-\end{itemize}
+    \subsubsection*{Umsetzung}
+        Prozesse in die Praxis umsetzen durch Implementierung und Anpassung von Anwendungssystemen.
+    \subsubsection*{Beispiele}
+        Implementierung neuer Systeme, Anpassung bestehender Systeme, Bereitstellung benötigter Geräte.
 
 \subsection{Prozesse einführen}
-\begin{itemize}
-    \item Definition: Organisatorische und technische Maßnahmen zur Bereitstellung der Infrastruktur.
-    \item Maßnahmen: Mitarbeiterschulung, Schaffung neuer Stellen, Anpassung bestehender Stellen, Implementierung oder Anpassung von Anwendungssystemen.
-\end{itemize}
+    \subsubsection*{Definition}
+        Organisatorische und technische Maßnahmen zur Bereitstellung der Infrastruktur.
+    \subsubsection*{Maßnahmen}
+        Mitarbeiterschulung, Schaffung neuer Stellen, Anpassung bestehender Stellen, Implementierung oder Anpassung von Anwendungssystemen.
 
 \subsection{Prozesse überwachen}
-\begin{itemize}
-    \item Prozessüberwachung: Überwachung anhand aufgezeichneter Daten.
-    \item KPI (Key Performance Indicators): Aggregation und Darstellung von Kennzahlen zur Überwachung und Identifikation von Optimierungspotentialen.
-\end{itemize}
+    \subsubsection*{Prozessüberwachung}
+        Überwachung anhand aufgezeichneter Daten.
+    \subsubsection*{KPI (Key Performance Indicators)}
+        Aggregation und Darstellung von Kennzahlen zur Überwachung und Identifikation von Optimierungspotentialen.
